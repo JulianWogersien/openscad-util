@@ -1,5 +1,5 @@
 
-module flatheadscrew(head_diameter, tail_diameter) {
+module cylindricalheadscrew(head_diameter, tail_diameter) {
     linear_extrude(height = 100) 
     circle(d = tail_diameter);
     translate([0, 0, 50])
